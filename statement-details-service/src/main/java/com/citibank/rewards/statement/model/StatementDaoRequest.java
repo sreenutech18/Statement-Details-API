@@ -10,6 +10,7 @@ public class StatementDaoRequest {
 	private String nameOnCard;
 	private String expDate;
 	private String clientId;
+	private String channelId;
 	
 
 }
