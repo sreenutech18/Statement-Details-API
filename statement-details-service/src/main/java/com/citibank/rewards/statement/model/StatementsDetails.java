@@ -8,9 +8,9 @@ public class StatementsDetails {
 	private String txnId;
 	private String txnname;
 	private String desc;
-	private float amount;
+	private String  amount;
 	private String merchantName;
-	private float redeemPoints;
+	private String redeemPoints;
 	private String remarks;
 
 }

@@ -88,7 +88,7 @@ public class StatementServiceImpl implements StatementService {
 				transaction.setTxnname(statementDtls.getTxnname());
 				transaction.setDesc(statementDtls.getDesc());
 				transaction.setMerchantName(statementDtls.getMerchantName());
-				transaction.setRedeemPoints(statementDtls.getRedeemPoints());
+				transaction.setRedeemPoints(Float.valueOf(statementDtls.getRedeemPoints()));
 				transaction.setRemarks(statementDtls.getRemarks());
 
 				/*
